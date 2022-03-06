@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./App.css";
-
 export const ParaBgColor = () => {
   // ex: change background color#
   // Take a paragraph with text. Have a toggle button. Change the color of the background between red and transparent on every button click.
