@@ -1,10 +1,14 @@
+import React from "react";
 import { useState } from "react";
-import "./App.css";
 import { ButtonOne } from "./ButtonOne";
 import { AlphaNumericPassword } from "./components/AlphaNumericPassword";
+import { DisableSubmit } from "./components/DisableSubmit";
+import { LikeBtn } from "./components/LikeBtn";
 import { ParaBgColor } from "./ParaBgColor";
 import { PasswordMatch } from "./PasswordMatch";
 import { TwitterCharCounter } from "./TwitterCharCounter";
+import "./App.css";
+import { ShowHidePassword } from "./components/ShowHidePassword";
 
 function App() {
   return (
@@ -15,7 +19,10 @@ function App() {
       {/* <ParaBgColor /> */}
       {/* <TwitterCharCounter /> */}
       {/* <PasswordMatch /> */}
-      <AlphaNumericPassword />
+      {/* <AlphaNumericPassword /> */}
+      {/* <DisableSubmit /> */}
+      {/* <LikeBtn /> */}
+      <ShowHidePassword />
     </div>
   );
 }
