@@ -9,6 +9,7 @@ import { PasswordMatch } from "./PasswordMatch";
 import { TwitterCharCounter } from "./TwitterCharCounter";
 import "./App.css";
 import { ShowHidePassword } from "./components/ShowHidePassword";
+import { MiniFigma } from "./components/MiniFigma";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       {/* <DisableSubmit /> */}
       {/* <LikeBtn /> */}
       <ShowHidePassword />
+      <MiniFigma />
     </div>
   );
 }
